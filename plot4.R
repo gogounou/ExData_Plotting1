@@ -24,7 +24,7 @@ dataframe$DateTime <- strptime(paste(dataframe$Date, dataframe$Time),
 ## Create the 4 plots
 png(filename="plot4.png", width=480, height=480)
 
-## Organize Layout. "mfcol" means that the plots will be ordered down each
+## Organize Layout. "mfcol" dictates that the plots will be ordered down each
 ## column, progressing from left to right
 par(mfcol=c(2,2))
 
